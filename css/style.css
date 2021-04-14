@@ -46,14 +46,16 @@ header nav ul li a {
    
 }
 main{
+    position: relative;
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 15px;
+    text-align: center;
 }
 main div img{
     position: relative;
     align-items: center;
-    width: 100%;
+
 }
 section{
     display: block;
@@ -63,7 +65,18 @@ section{
 section img{
     display: inline-block;
    
-
+    padding: 14px;
    
 }
 
+
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+    background-color:gray
+   
+     
+}
